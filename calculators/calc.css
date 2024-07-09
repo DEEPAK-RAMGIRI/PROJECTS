@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+}
+body{
+    background: rgb(6,88,85);
+    background: radial-gradient(circle, rgba(6,88,85,1) 0%, rgba(0,208,255,1) 66%, rgba(6,88,85,1) 100%);width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    border: 1px solid aqua;
+    border-radius: 15px;
+    background: transparent;
+    box-shadow: rgba(2, 192, 239, 0.56) 0px 22px 70px 4px;
+    padding: 20px;
+}
+input{
+    margin: 10px;
+    border:none;
+    border-radius: 15px;
+    width: 400px;
+    padding: 24px;
+    background: transparent;
+    box-shadow: rgba(2, 245, 237, 0.35) 0px 5px 15px;
+    font-size: 50px;
+    text-align: right;
+    cursor: pointer;
+    color: aliceblue;
+    font-weight: bold;
+}
+input::placeholder{
+    color: aliceblue;
+
+    
+}
+button{
+    border: none;
+    font-size: 20px;
+    font-weight:bold;
+    width: 73px;
+    height: 73px;
+    margin: 15px;
+    border-radius: 50%;
+    background: transparent;
+    box-shadow: -15px -15px 40px rgba(2, 245, 237, 0.35);    color: aliceblue;
+    cursor: pointer;
+}
+.equal{
+    background-color:burlywood;
+    box-shadow: 0 0 5px burlywood,
+    0 0 25px burlywood;
+}
+.equal:hover{
+    box-shadow: 0 0 5px #deb887,
+    0 0 25px #deb898,0 0 50px #deb900,
+    0 0 75px #deb901,0 0 100px  burlywood;  
+}
+.del{
+    color: red;
+}
+.cl{
+    color: orange;
+}
+.op{
+    color: lightgreen;
+}
