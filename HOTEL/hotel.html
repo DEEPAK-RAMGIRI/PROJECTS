@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="hotel.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <title>hotel</title>
+
+</head>
+<body>
+    <section>
+        <nav>
+                <div>
+                    <a href="#" class="logo"><img src="chef.png" alt="chef pic" srcset=""></a>
+                </div>
+                <ul>
+                  <li> <a href="#Home" style="--i:1" class="active">HOME</a></li>
+                  <li><a href="#menu" style="--i:2">MENU</a></li>
+                  <!-- <li><a href="rating" style="--i:3">OUR FOOD</a></li>   -->
+                  <li><a href="#about" style="--i:3 ">ABOUT</a></li>
+                  <li><a href="#review" style="--i:3 ">REVIEWS</a></li>
+                  <li><a href="#order" style="--i:4">Order Now</a></li>  
+                </ul>
+                  <div class="icon">
+                    <i class='bx bxs-cart'></i>
+                    <!-- <span class="quantity">0</span> -->
+                </div>  
+        </nav>
+        <div class="container" id="Home">
+            <div class="pics"><img src="food1.png" alt="" width="500">
+            </div>
+            <div> 
+                <h1><span>FOOD</span>IES</h1>
+                <h2>we have <span>: </span ><span class="text"></span></h2>
+                <p>Our five-star healthy food business, certified by international standards, features dishes prepared by world-class, certified chefs.
+                </p><div class="eat"><span>Bon appétit!</span></div> 
+                
+            </div>
+        </div>
+    </section>
+
+   
+
+        <div class="menu" id="menu">
+            <h1>OUR<span> MENU</span></h1>
+        
+            <div class="menu_box">
+                <div class="menu_card">
+                    <div class="menu_img">
+                        <img src="f1.jpg" alt="ratatouile">
+                    </div>
+                    <div class="menu_info">
+                        <h2>Ratatouile</h2>
+                     <h3>RS: 800</h3>
+                        <div class="menu_star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                         <div><a href="#" class="menu_btn" data-item="Ratatouile" data-price="800">ADD TO CART</a>
+</div>
+                    </div>
+                </div>
+                <div class="menu_card">
+                    <div class="menu_img">
+                        <img src="f2.jpg" alt="Lobster Bisque">
+                    </div>
+                    <div class="menu_info">
+                        <h2>Lobster Bisque</h2>
+                       <h3>RS: 560</h3> <div class="menu_star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half'></i>
+                        </div>
+                         <div><a href="#" class="menu_btn" data-item="Lobster Bisque" data-price="560">ADD TO CART</a>
+</div>
+                    </div>
+                </div>
+                <div class="menu_card">
+                    <div class="menu_img">
+                        <img src="f3.jpg" alt="Crêpes">
+                    </div>
+                    <div class="menu_info">
+                        <h2>Crêpes</h2>
+                        <h3>RS: 830</h3>
+                       <div class="menu_star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            
+                        </div>
+                        <div><a href="#" class="menu_btn" data-item="Crêpes" data-price="830">ADD TO CART</a>
+</div>
+                    </div>
+                </div>
+                <div class="menu_card">
+                    <div class="menu_img">
+                        <img src="f4.jpg" alt="Palmiers">
+                    </div>
+                    <div class="menu_info">
+                        <h2>Palmiers</h2>
+                        <h3>RS: 499</h3>
+                        <div class="menu_star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half'></i>
+                        </div>
+                         <div><a href="#" class="menu_btn" data-item="Palmiers" data-price="499">ADD TO CART</a>
+</div>
+                    </div>
+                </div>
+                <div class="menu_card">
+                    <div class="menu_img">
+                        <img src="f5.jpg" alt="Upma">
+                    </div>
+                    <div class="menu_info">
+                        <h2>Upma</h2>
+                        <h3>RS: 150</h3>
+                        <div class="menu_star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half'></i>
+                        </div>
+                         <div><a href="#" class="menu_btn" data-item="Upma" data-price="150">ADD TO CART</a>
+</div>
+                    </div>
+                </div>
+                <div class="menu_card">
+                    <div class="menu_img">
+                        <img src="f6.jpg" alt="Biryani">
+                    </div>
+                    <div class="menu_info">
+                        <h2>Biryani</h2>
+                         <h3>RS: 750</h3>
+                        <div class="menu_star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half'></i>
+                        </div>
+                         <div><a href="#" class="menu_btn" data-item="Biryani" data-price="750">ADD TO CART</a>
+</div>
+                    </div>
+                </div>
+                <div class="menu_card">
+                    <div class="menu_img">
+                        <img src="f7.jpg" alt="Gulab Jamun">
+                    </div>
+                    <div class="menu_info">
+                        <h2>Gulab Jamun</h2>
+                        <h3>RS: 1000</h3>
+                        <div class="menu_star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            
+                        </div>
+                         <div><a href="#" class="menu_btn" data-item="Gulab Jamun" data-price="1000">ADD TO CART</a>
+</div>
+                    </div>
+                </div>
+                <div class="menu_card">
+                    <div class="menu_img">
+                        <img src="f8.jpg" alt="Palak Panner">
+                    </div>
+                    <div class="menu_info">
+                        <h2>Palak Panner</h2>
+                        <h3>RS: 560</h3>
+                        <div class="menu_star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+
+                        </div>
+                         <div><a href="#" class="menu_btn" data-item="Palak Panner" data-price="560">ADD TO CART</a>
+</div>
+                    </div>
+                </div>
+                <div class="menu_card">
+                    <div class="menu_img">
+                        <img src="f9.jpg" alt="ratatouile">
+                    </div>
+                    <div class="menu_info">
+                        <h2>Onigiri</h2>
+                        <h3>RS: 700</h3>
+                        <div class="menu_star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half'></i>
+                        </div>
+                         <div><a href="#" class="menu_btn" data-item="Ratatouile" data-price="800">ADD TO CART</a>
+</div>
+                    </div>
+                </div>
+                <div class="menu_card">
+                    <div class="menu_img">
+                        <img src="f10.jpg" alt="Tonkatsu">
+                    </div>
+                    <div class="menu_info">
+                        <h2>Tonkatsu</h2>
+                        <h3>RS: 700</h3>
+                        <div class="menu_star">
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half'></i>
+                        </div>
+                         <div><a href="#" class="menu_btn" data-item="Tonkatsu" data-price="700">ADD TO CART</a>
+</div>
+                    </div>
+                </div>
+                <div class="menu_card">
+                    <div class="menu_img">
+                        <img src="f11.jpg" alt="Ramen">
+                    </div>
+                    <div class="menu_info">
+                        <h2>Ramen</h2>
+                        <h3>RS: 500</h3>
+                        <div class="menu_star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            
+                        </div>
+                         <div><a href="#" class="menu_btn" data-item="Ramen" data-price="500">ADD TO CART</a>
+</div>
+                    </div>
+                </div>
+                
+                <div class="menu_card">
+                    <div class="menu_img">
+                        <img src="f12.jpg" alt="Udon">
+                    </div>
+                    <div class="menu_info">
+                        <h2>Udon</h2>
+                       <h3>RS: 580</h3>
+                        <div class="menu_star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            
+                        </div>
+                         <div><a href="#" class="menu_btn" data-item="Udon" data-price="580">ADD TO CART</a>
+</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <section class="about" id="about">
+            <div class="about-us">
+                <div class="about-text">
+                    <h1><span class="color">ABOUT</span> US</h1>
+                    <p>We are certified by world-class organizations. We have branches internationally and are widely known as foodies. We have 5-star certificates awarded globally and 5-star chefs as well.</p>
+                    <a href="#" style="--i:6"><i class='bx bxl-facebook-circle' style='color: blue' ></i></a>
+                    <a href="#" style="--i:7"><i class='bx bxl-instagram' style="color:#E4405F"></i></a>
+                    <a href="#" style="--i:8"><i class='bx bxl-twitter' style="color:blue"></i></a>
+                    <a href="#" style="--i:9"><i class='bx bxl-pinterest' style="color:red"></i></a>
+                    <a href="#" style="--i:10"><i class='bx bxl-youtube'  style="color:red"></i></a>
+                </div>
+                <div>
+                    <img src="./cer.jpg" alt="certificate">
+                </div>
+            </div>
+        </section>
+        
+    <div class="review" id="review">
+        <h1>CUSTOMER <span class="color"> REVIEWS</span></h1>
+        <div class="reviewers">
+            <div class="review-card">
+                <div class="profile">
+                    <img src="./c1.jpeg" alt="customer1">
+                </div>
+                <div class="name">
+                    MP3
+                </div>
+                <div class="reviews">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <div class="opi">
+                    <p>The chicken in the biryani was incredibly tender and juicy, indicating careful marination and cooking. The rice grains were separate yet held together beautifully, showcasing the chef's skill in preparing this iconic dish</p>
+                </div>
+            </div>
+            <div class="review-card">
+                <div class="profile">
+                    <img src="./c1.jpeg" alt="customer1">
+                </div>
+                <div class="name">
+                    MINI UZI
+                </div>
+                <div class="reviews">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <div class="opi">
+                    <p>The Palak Paneer was warm, fluffy naan bread, which paired perfectly with the creamy texture of the dish. The naan helped to soak up the flavors of the spinach gravy, enhancing the overall dining experience.</p>
+                </div>
+            </div>
+            <div class="review-card">
+                <div class="profile">
+                    <img src="./c1.jpeg" alt="customer1">
+                </div>
+                <div class="name">
+                    AWM
+                </div>
+                <div class="reviews">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <div class="opi">
+                    <p>The ramen is exceeded my expectations with its rich tonkotsu broth and perfectly textured noodles. Topped with tender chashu and a flavorful ajitsuke tamago, each bite was a delight. The cozy ambiance and attentive service further enhanced the dining experience.</p>
+                </div>
+            </div>
+            <div class="review-card">
+                <div class="profile">
+                    <img src="./c1.jpeg" alt="customer1">
+                </div>
+                <div class="name">
+                    M1014
+                </div>
+                <div class="reviews">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <div class="opi">
+                    <p>The gulab jamuns were wonderfully sweet, with a hint of cardamom that added a pleasant aromatic touch. The sugar syrup was perfectly balanced, not overly sweet, allowing the flavors of the jamuns to shine through.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+    <div class="order" id="order">
+        <h1>ORDER <span class="color"">NOW</span></h1>
+        <div class="Baatha">
+            <div class="order_img">
+                <img src="./d.png" alt="food delivery" srcset="" >
+            </div>
+            <form action="#">
+                <div class="input">
+                    <p>Name:</p>
+                    <input type="text" placeholder="Enter Your Name here" required>
+                </div>
+                <div class="input">
+                    <p>Email:</p>
+                    <input type="email" placeholder="Enter your Email here" required>
+                </div>
+                <div class="input">
+                    <p>Address:</p>
+                    <input type="text" placeholder="Enter your Address here" required>
+                </div>
+                <div class="input">
+                    <p>Phone number:</p>
+                    <input type="Text" placeholder="Enter your Phno here" required>
+                </div>
+                    <a href="#" class="summit">Order Now</a>               
+            </form>
+        </div>
+    </div>
+    <script src="hotel.js"></script>
+</body>
+</html>
