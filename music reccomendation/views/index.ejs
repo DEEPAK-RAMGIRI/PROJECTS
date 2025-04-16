@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>MUSIC RECOMMENDATION SYSTEM</title>
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Helvetica+Neue&display=swap" rel="stylesheet"> -->
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: linear-gradient(
+        45deg,
+        #009494,
+        #007171,
+        #b1323b,
+        #922a2f,
+        #ba482e,
+        #843015,
+        #6936c2,
+        #4d198d,
+        #009494
+      );
+      background-size: 400% 400%;
+      animation: gradientFlow 90s ease infinite, hueRotation 180s linear infinite;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    @keyframes gradientFlow {
+      0% {
+        background-position: 0% 50%;
+      }
+
+      50% {
+        background-position: 100% 50%;
+      }
+
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    @keyframes hueRotation {
+      0% {
+        filter: hue-rotate(0deg);
+      }
+
+      100% {
+        filter: hue-rotate(360deg);
+      }
+    }
+
+    h1 {
+      color: white;
+      font-weight: 300;
+      font-size: 2.5rem;
+      text-align: center;
+      text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.9);
+      margin-top: 30px;
+    }
+
+    form {
+      margin-top: 20px;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 20px 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(10px);
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    input[type="text"] {
+      padding: 10px;
+      border-radius: 8px;
+      border: none;
+      width: 200px;
+      font-size: 1rem;
+      background-color: #fff;
+      color: #333;
+    }
+
+    input[type="submit"] {
+      background-color: #1db954;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #1ed760;
+    }
+
+    .result {
+      margin-top: 40px;
+      text-align: center;
+      color: white;
+    }
+
+    .result img {
+      width: 250px;
+      height: 250px;
+      border-radius: 15px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+      margin-bottom: 15px;
+    }
+
+    @media (max-width: 480px) {
+      form {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      input[type="text"],
+      input[type="submit"] {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <h1>🎶 Music Recommendation</h1>
+
+  <form method="POST" action="/post-secret">
+    <input type="text" name="recommend-me" placeholder="Search for a genre, artist, or mood">
+    <input type="submit" value="Submit">
+  </form>
+
+  <% if (locals.music) { %>
+    <div class="result">
+      <img src="<%= music.image %>" alt="Music Cover">
+      <h2><%= music.name %></h2>
+    </div>
+  <% } %>
+</body>
+
+</html>
