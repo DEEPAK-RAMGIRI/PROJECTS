@@ -102,7 +102,7 @@ section .container h1 span{
     
 }
 section .pics {
-    /* width: 630px; */
+    width: 630px;
     position: relative;
     filter: drop-shadow( 10px 0  20px black);
     /* padding-top: 100px; */

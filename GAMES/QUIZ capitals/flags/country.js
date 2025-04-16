@@ -62,5 +62,6 @@ function nextQuestion() {
 }
 
 app.listen(port, () => {
+  console.log("hello");
   console.log(`Server is running at http://localhost:${port}`);
 });
