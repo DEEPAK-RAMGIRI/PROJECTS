@@ -1,0 +1,83 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 50px 20px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    background-color:  rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+    backdrop-filter: blur(10px); 
+    padding: 25px 30px;
+    border-radius: 10px;
+    border: none;
+
+}
+input{
+    width:300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    background-color:  rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    border: none;
+}
+
+button{
+    background-color:  #ea08df33;
+    border-radius: 5px;
+    font-size:15px;
+    padding: 10px 20px;
+    border: none;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.45);
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#result {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#qrImage {
+    margin-top: 20px;
+    max-width: 250px;
+    border: 2px solid #333;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #fff;
+}
