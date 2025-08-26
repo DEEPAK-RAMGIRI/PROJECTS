@@ -6,7 +6,7 @@ form.addEventListener('submit', async (e) => {
     e.preventDefault();
     const url = urlInput.value;
     try {
-        const response = await fetch('generate-qr', {
+        const response = await fetch('./api/generate-qr', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ url })
