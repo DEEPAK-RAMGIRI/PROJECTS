@@ -2,16 +2,10 @@
   "name": "qrcode",
   "version": "1.0.0",
   "description": "creating a qrcode with help of users url",
-  "main": "index.js",
   "type": "module",
-  "scripts": {
-    "dev": "vercel dev"
-  },
   "author": "deepak",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^2.2.0",
-    "express": "^5.1.0",
     "qr-image": "^3.2.0"
   }
 }

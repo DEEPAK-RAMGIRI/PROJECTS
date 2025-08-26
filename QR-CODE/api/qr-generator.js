@@ -14,6 +14,7 @@ export default function handler(req, res) {
 
     res.status(200).json({ qrPath: base64QR });
   } catch (err) {
+    console.error(err);
     res.status(500).json({ error: "Failed to generate QR" });
   }
 }
