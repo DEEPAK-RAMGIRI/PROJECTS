@@ -2,7 +2,7 @@
 
 A simple web application that generates QR codes from user-provided URLs using a serverless API on Vercel.
 
-[QRcode](https://projects-two-inky.vercel.app/)
+**Live Demo** [QRcode](https://projects-two-inky.vercel.app/)
 
 ![QR-CODE IMAGE](https://github.com/DEEPAK-RAMGIRI/PROJECTS/blob/main/QR-CODE/qr-code.png)
 
