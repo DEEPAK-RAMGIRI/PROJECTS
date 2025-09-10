@@ -1,7 +1,7 @@
 ### Drum Kit Web App: 
 A web application built with HTML, CSS, and JavaScript. Users can play drum sounds by clicking buttons or pressing keys, with animations for visual feedback. It uses DOM methods for event handling and interactive sound effects.
 
-[DRUM KIT PROJECT](https://projects-henna.vercel.app/)
+**Live Demo** [DRUM KIT PROJECT](https://projects-henna.vercel.app/)
 
 ![DRUM KIT PROJECT](https://github.com/DEEPAK-RAMGIRI/PROJECTS/blob/main/GAMES/Drum%20Kit(DOM)/DRUMKIT.png)
 
