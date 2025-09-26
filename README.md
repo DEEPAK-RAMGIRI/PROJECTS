@@ -19,3 +19,8 @@ Welcome to my project collection repository. This space contains all of my Side 
 - [Sentimental Analysis:](https://github.com/DEEPAK-RAMGIRI/NLP-Natural-Language-Processor-/blob/main/sentimental_analysis.py)  – Analyzes sentiment (positive/negative) of Reviews
 - [Song Reccomendation System:](https://github.com/DEEPAK-RAMGIRI/Information-Retrieval-System-IRS-/blob/main/PROJECT.ipynb) – Recommends songs based on text similarity.
 - [WEB SITE CLASSIFICATION:](https://github.com/DEEPAK-RAMGIRI/AIML-LAB/blob/main/WEBSITE_CLASSIFICATION_PROJECT.ipynb) –  Classifies websites into categories using ML techniques.
+
+
+### UI/ UX 
+ 
+- [Hotel Brochure Design](https://www.canva.com/design/DAGIq3OqnRM/GYtdP6tfdcAs62uNdLqeNA/edit?utm_content=DAGIq3OqnRM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) - A hotel brochure designed using Canva, aimed at presenting key features of a hotel in a visually appealing and professional layout.
