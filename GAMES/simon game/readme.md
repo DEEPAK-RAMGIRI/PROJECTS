@@ -10,7 +10,7 @@
 - Game ends if a wrong button is pressed.
 - u will get u r score.
 
-### Technologies Used 🛠
+### Technologies Used 
 
 - HTML5
 - CSS3
