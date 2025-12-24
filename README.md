@@ -19,6 +19,7 @@ Welcome to my project collection repository. This space contains all of my Side 
 - [Sentimental Analysis:](https://github.com/DEEPAK-RAMGIRI/NLP-Natural-Language-Processor-/blob/main/sentimental_analysis.py)  – Analyzes sentiment (positive/negative) of Reviews
 - [Song Reccomendation System:](https://github.com/DEEPAK-RAMGIRI/Information-Retrieval-System-IRS-/blob/main/PROJECT.ipynb) – Recommends songs based on text similarity.
 - [WEB SITE CLASSIFICATION:](https://github.com/DEEPAK-RAMGIRI/AIML-LAB/blob/main/WEBSITE_CLASSIFICATION_PROJECT.ipynb) –  Classifies websites into categories using ML techniques.
+- [RESUME-SELECTOR:](https://github.com/DEEPAK-RAMGIRI/RESUME-SELECTOR) - an application tells the score of resume and tells reccomeendations
 
 
 ### UI/ UX 
